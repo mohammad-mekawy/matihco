@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Partners</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        .main-container {
+            background-image: url(assets/imgs/partners.jpg)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <img src="assets/imgs/1.png" alt="" class="img-responsive hidden-xs hidden-sm">
+        <img src="assets/imgs/2.png" alt="" class="img-responsive hidden-xs hidden-sm">
+        <div class="logo-part">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="index-en.html"> <img src="assets/imgs/logo-text-en.png" alt="" class="img-responsive logo">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icons">
+                            <a href="#" class="mob-hd"><img src="assets/imgs/england.jpg" alt=""></a>
+                            <a href="Partners-rtl.html" class="mob-hd"><img src="assets/imgs/turkey.jpg" alt=""></a>
+                            <a href="index-en.html" class="mob-hd"><i class="fas fa-home"></i></a>
+                            <a href="#" class="a-bars"><i class="fas fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-part text-center Partners">
+            <div class="container">
+                <div class="row">
+                    <h2 class="h1">Founding Members</h2>
+                    <!-- owl -->
+                    <div class="owl-one owl-carousel owl-theme">
+                        <div>
+                            <a href="profile.html"><img src="assets/imgs/profile1.png" alt="logo1" class="img1 img-responsive"></a>
+                            <div class="layer"></div>
+                            <p class="name">Eng. Mohamed Waseem Parekhan <br><span class="job-title">Chairman of Board
+                                    of Directors</span> </p>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/imgs/p2.png" alt="logo1" class="img2 img-responsive"></a>
+                            <div class="layer"></div>
+                            <p class="name">Lorem ipsum dolor sit amet <br><span class="job-title">Lorem ipsum
+                                    dolor</span> </p>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/imgs/4.png" alt="logo1" class="img3 img-responsive"></a>
+                            <div class="layer"></div>
+                            <p class="name">Lorem ipsum dolor sit amet <br><span class="job-title">Lorem ipsum
+                                    dolor</span> </p>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/imgs/5.png" alt="logo1" class="img3 img-responsive"></a>
+                            <div class="layer"></div>
+                            <p class="name">Lorem ipsum dolor sit amet <br><span class="job-title">Lorem ipsum
+                                    dolor</span> </p>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/imgs/p3.png" alt="logo1" class="img2 img-responsive"></a>
+                            <div class="layer"></div>
+                            <p class="name">Lorem ipsum dolor sit amet <br><span class="job-title">Lorem ipsum
+                                    dolor</span> </p>
+                        </div>
+                    </div>
+                    <!-- /owl -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+        var owl1 = $('.owl-one');
+        owl1.owlCarousel({
+            items: 5,
+            loop: true,
+            dotsEach: true,
+            margin: 0,
+            center: true,
+            smartSpeed: 1000,
+            autoplay: true,
+            nav: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 3,
+                },
+                1000: {
+                    items: 5,
+                }
+            }
+        });
+        $(".owl-theme div .layer").click(function() {
+            $(this).parent().parent().addClass("center")
+            $(this).parent().parent().siblings().removeClass("center")
+        })
+    </script>
+</body>
+
+</html>

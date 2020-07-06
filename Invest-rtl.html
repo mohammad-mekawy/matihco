@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>invest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main-rtl.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <style>
+        .main-container {
+            background-image: url(assets/imgs/map-plus.jpg)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="logo-part">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 pull-right">
+                        <a href="index.html"> <img src="assets/imgs/logo-text.png" alt="" class="img-responsive logo">
+                        </a>
+                    </div>
+                    <div class="col-md-6 pull-left">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-bars"></i></a>
+                            <a href="index.html"><i class="fas fa-home"></i></a>
+                            <a href="#"><img src="assets/imgs/turkey.jpg" alt=""></a>
+                            <a href="Invest.html"><img src="assets/imgs/england.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-part">
+            <div class="container">
+                <div class="row">
+                    <section class="my-panel">
+                        <ul class="list-unstyled list-choose">
+                            <li class="active" data-class="con2">
+                                <h4 dir="rtl">استثمر في تركيا </h4>
+                            </li>
+                            <li data-class="con3">
+                                <h4 dir="rtl">الصحة و الاستثمار </h4>
+                            </li>
+                            <li data-class="con4">
+                                <h4 dir="rtl">لماذا اسطنبول </h4>
+                            </li>
+                            <div class="clearfix"></div>
+                        </ul>
+                        <div class=" right-part">
+                            <div class="con con2" dir="rtl">
+                                <p>نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصصنص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصص ص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص ص نصص ص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+
+                            </div>
+                            <div class="con con3" dir="rtl">
+                                <p>نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصصنص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصص ص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص ص نصص ص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصص ص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصنص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصنص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصنص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصنص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصص ص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص صص ص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                            </div>
+                            <div class="con con4" dir="rtl">
+                                <p>نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصنص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص نص نص نصص ص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                                <p>نص نص نص صص ص نص نص نص نص نص نص نص نص نص نص نص نص نص نص</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        $(".list-choose>li").click(function() {
+            $(this).addClass("active").siblings().removeClass("active");
+            $(".right-part>div").hide()
+            $("." + $(this).data("class")).fadeIn(1000)
+        });
+    </script>
+</body>
+
+</html>

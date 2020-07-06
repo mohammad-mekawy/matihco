@@ -1,0 +1,258 @@
+.main-container {
+    background-image: url(../imgs/home-back-plus.png);
+}
+
+@media (max-width: 992px) {
+    .main-container {
+        background: url(../imgs/home-back.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo-part .logo {
+        float: right;
+    }
+    .logo-part .icons {
+        float: left;
+        margin: 21px 100px;
+    }
+}
+
+
+/* home */
+
+.circle-box a {
+    font-size: 18px;
+    font-family: "Cocon-NextArabic-Bold", sans-serif;
+}
+
+.circle-box a.sp {
+    width: 70px;
+}
+
+
+/* /home */
+
+
+/* my-panel */
+
+.my-panel>ul li {
+    float: right;
+}
+
+@media (max-width: 992px) {
+    .my-panel>ul li {
+        width: 77%;
+    }
+}
+
+.my-panel>ul li h4 {
+    font-size: 28px;
+    font-family: "Cocon-NextArabic-Bold", sans-serif;
+    float: right;
+}
+
+.my-panel p {
+    font-family: "Cocon-NextArabic-Regular", sans-serif;
+}
+
+
+/* /my-panel */
+
+
+/* partner */
+
+.Partners .h1,
+.Partners .owl-item.center p {
+    font-family: "Cocon-NextArabic-Regular", sans-serif;
+}
+
+@media (min-width: 991px) {
+    .Partners .owl-item.center p {
+        position: absolute;
+        width: 400px;
+        left: -135px;
+    }
+    .Partners .owl-item span.job-title {
+        margin-left: 65px;
+    }
+}
+
+
+/* /partner */
+
+
+/* profile */
+
+.profile .h1 {
+    font-family: "Cocon-NextArabic-Bold", sans-serif;
+    font-size: 30px;
+}
+
+.profile h3 {
+    font-family: "Cocon-NextArabic-Regular", sans-serif;
+}
+
+.profile p.lead {
+    font-family: "Cocon-NextArabic-Regular", sans-serif;
+    font-size: 22px;
+}
+
+.profile img {
+    transform: rotatey(180deg);
+}
+
+
+/* /profile */
+
+
+/* contact-us */
+
+.contact-us .h1 {
+    font-family: "Cocon-NextArabic-Regular", sans-serif;
+    font-size: 30px;
+}
+
+.contact-us p {
+    font-size: 25px;
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+}
+
+.contact-us input,
+.contact-us textarea {
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+    font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 18px;
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+}
+
+::-moz-placeholder {
+    font-size: 18px;
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+}
+
+:-ms-input-placeholder {
+    font-size: 18px;
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+}
+
+:-moz-placeholder {
+    font-size: 18px;
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+}
+
+.contact-us input[type="submit"] {
+    font-size: 23px;
+    padding: 0px 30px;
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+}
+
+@media (max-width: 992px) {
+    .contact-us .col-md-5 {
+        width: 100%;
+    }
+}
+
+
+/* /contact-us */
+
+
+/* events-timeLine */
+
+.events>.h1 {
+    font-family: "Cocon-NextArabic-Bold", sans-serif;
+    font-size: 34px;
+}
+
+.events .dotted-line .con p:first-of-type {
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+}
+
+@media (min-width: 992px) {
+    .events .dotted-line .con p:first-of-type {
+        position: absolute;
+        width: 210px;
+        left: -92px;
+    }
+}
+
+
+/* /events-timeLine */
+
+
+/* meeting */
+
+.meeting .h1 {
+    font-size: 23px;
+    margin-right: -15px;
+    font-family: "Cocon-NextArabic-Bold", sans-serif;
+}
+
+.meeting h3 {
+    margin-right: -15px;
+}
+
+.meeting p {
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+}
+
+
+/* /meeting */
+
+
+/* news */
+
+.media-right {
+    float: right;
+}
+
+.news h3 {
+    font-size: 23px;
+    font-family: "Cocon-NextArabic-Bold", sans-serif;
+}
+
+.news h4 {
+    font-size: 19px;
+}
+
+.news p {
+    font-size: 17px;
+    font-family: "Cocon-NextArabic-Light", sans-serif;
+}
+
+
+/* /news */
+
+
+/* our-partner */
+
+.our-partner h2 {
+    font-family: "Cocon-NextArabic-Bold", sans-serif;
+}
+
+.our-partner h3 {
+    font-family: "Cocon-NextArabic-Regular", sans-serif;
+}
+
+
+/* /our-partner */
+
+
+/* press-conference */
+
+.press-conference .h1 {
+    font-family: "Cocon-NextArabic-Bold", sans-serif;
+}
+
+
+/* /press-conference */

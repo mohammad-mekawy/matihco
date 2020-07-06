@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        .main-container {
+            background-image: url(assets/imgs/proj.jpg)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <img src="assets/imgs/1.png" alt="" class="img-responsive hidden-xs hidden-sm">
+        <img src="assets/imgs/2.png" alt="" class="img-responsive hidden-xs hidden-sm">
+        <div class="logo-part">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="index-en.html"> <img src="assets/imgs/logo-text-en.png" alt="" class="img-responsive logo">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icons">
+                            <a href="#" class="mob-hd"><img src="assets/imgs/england.jpg" alt=""></a>
+                            <a href="projects-rtl.html" class="mob-hd"><img src="assets/imgs/turkey.jpg" alt=""></a>
+                            <a href="index-en.html" class="mob-hd"><i class="fas fa-home"></i></a>
+                            <a href="#" class="a-bars"><i class="fas fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-part">
+            <div class="container">
+                <div class="row">
+                    <section class="my-panel">
+                        <ul class="list-unstyled list-choose">
+                            <li class="active" data-class="con2">
+                                <h4>1 <sup>st</sup> project</h4>
+                            </li>
+                            <li data-class="con3">
+                                <h4>2 <sup>st</sup> project</h4>
+                            </li>
+                            <li data-class="con4">
+                                <h4>3 <sup>st</sup> project</h4>
+                            </li>
+                            <div class="pull-right">
+                                <a href="#"><i class="fas fa-angle-right"></i></a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </ul>
+                        <div class=" right-part">
+                            <div class="con con2">
+                                <p>A five-year-old hospital with a capacity of 113 beds consisting of nine floors with a total area of 9000 square meters. <br> The hospital has 14 basic specialties including the 24 hour emergency department, as well as the
+                                    hair and beauty section. <br> The hospital started work five years ago with continuous development in terms of physical income, medical professional development and integrated health services
+                                    <br> The medical staff of the hospital consists of 54 doctors and more than 100 nurses, in addition to other specialties
+                                    <br> The total number of employees is about 350 employees. <br> The hospital was accredited by the standards and standards of Turkish hospitals by 98%
+                                    <br> Medical and Quality Management for the year. He also holds the ISO 9000 International Quality Certificate and the Turkish Standards and Metrology Center Certificate of Excellence. <br> It has been accredited by
+                                    the Ministry of Health out of 38 qualified hospitals for medical tourism and medical treatment in Turkey
+                                </p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat unde quaerat voluptatem suscipit. Similique tenetur maxime facilis pariatur aliquam dolore voluptatem, accusantium minima quisquam doloribus! Possimus
+                                    repudiandae incidunt magni. sit amet consectetur adipisicing elit. Dolorem repellat unde quaerat voluptatem suscipit. Similique tenetur maxime facilis pariatur aliquam dolore voluptatem, accusantium minima quisquam
+                                    doloribus! Possimus repudiandae incidunt kiko
+                                </p>
+                            </div>
+                            <div class="con con3">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi ex animi ducimus impedit, recusandae commodi laborum nemo iste ipsam perferendis quia inventore a culpa libero dicta, cum hic saepe?</p>
+                            </div>
+                            <div class="con con4">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi ex animi ducimus impedit, recusandae commodi laborum nemo iste ipsam perferendis quia inventore a culpa libero dicta, cum hic saepe?</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        $(".list-choose>li").click(function() {
+            $(this).addClass("active").siblings().removeClass("active");
+            $(".right-part>div").hide()
+            $("." + $(this).data("class")).fadeIn(1000)
+        });
+    </script>
+</body>
+
+</html>

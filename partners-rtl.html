@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Partners</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main-rtl.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <style>
+        .main-container {
+            background-image: url(assets/imgs/partners-plus.jpg)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="logo-part">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 pull-right">
+                        <a href="index.html"> <img src="assets/imgs/logo-text.png" alt="" class="img-responsive logo">
+                        </a>
+                    </div>
+                    <div class="col-md-6 pull-left">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-bars"></i></a>
+                            <a href="index.html"><i class="fas fa-home"></i></a>
+                            <a href="#"><img src="assets/imgs/turkey.jpg" alt=""></a>
+                            <a href="partners.html"><img src="assets/imgs/england.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-part text-center Partners">
+            <div class="container">
+                <div class="row">
+                    <h2 class="h1" dir="rtl">الأعضاء المؤسسين للشركة</h2>
+                    <!-- owl -->
+                    <div class="owl-one owl-carousel owl-theme">
+                        <div>
+                            <a href="profile-rtl.html">
+                                <img src="assets/imgs/profile1.png" alt="logo1" class="img1 img-responsive">
+                            </a>
+                            <div class="layer"></div>
+                            <p class="name" dir="rtl">الدكتور المهندس محمد وسيم باريخان <br><span class="job-title">رئيس
+                                    مجلس الإدارة</span> </p>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="assets/imgs/p2.png" alt="logo1" class="img2 img-responsive">
+                            </a>
+                            <div class="layer"></div>
+                            <p class="name" dir="rtl">نص نص نص نص نص نص نص <br><span class="job-title">نص نص نص نص
+                                </span> </p>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/imgs/4.png" alt="logo1" class="img3 img-responsive"></a>
+                            <div class="layer"></div>
+                            <p class="name" dir="rtl">نص نص نص نص نص نص نص <br><span class="job-title">نص نص نص نص
+                                </span> </p>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/imgs/5.png" alt="logo1" class="img3 img-responsive"></a>
+                            <div class="layer"></div>
+                            <p class="name" dir="rtl">نص نص نص نص نص نص نص <br><span class="job-title">نص نص نص نص
+                                </span> </p>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/imgs/p3.png" alt="logo1" class="img2 img-responsive"></a>
+                            <div class="layer"></div>
+                            <p class="name" dir="rtl">نص نص نص نص نص نص نص <br><span class="job-title">نص نص نص
+                                    نص</span> </p>
+                        </div>
+                    </div>
+                    <!-- /owl -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+        var owl1 = $('.owl-one');
+        owl1.owlCarousel({
+            items: 5,
+            loop: true,
+            dotsEach: true,
+            margin: 0,
+            smartSpeed: 1000,
+            center: true,
+            autoplay: false,
+            nav: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 3,
+                },
+                1000: {
+                    items: 5,
+                }
+            }
+        });
+        $(".owl-theme div .layer").click(function() {
+            $(this).parent().parent().addClass("center")
+            $(this).parent().parent().siblings().removeClass("center")
+        })
+    </script>
+</body>
+
+</html>
